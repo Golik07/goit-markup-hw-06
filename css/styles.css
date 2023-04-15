@@ -840,6 +840,7 @@ margin-left: 16px;
     transform: translate(-50%,-50%) scaley(1);
     transition: transform 250ms linear;
     padding: 24px;
+    border-radius: 4px;
 }
 
 
@@ -858,7 +859,7 @@ margin-left: 16px;
     0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover{
@@ -866,6 +867,7 @@ margin-left: 16px;
     fill: var(--white-color);
 
 }
+
 .modal-icon{
 }
 
@@ -914,6 +916,7 @@ margin-left: 16px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    background-color: transparent;
 }
 
 .modal-input:focus {
@@ -951,6 +954,7 @@ margin-left: 16px;
     outline: transparent;
     resize: none;
     display: block;
+    background-color: transparent;
 }
 
 .modal-textarea:focus{
@@ -959,6 +963,7 @@ margin-left: 16px;
 
 .link-checkbox{
     color: var(--blue-color);
+    padding-left: 3px;
 }
 .modal-btn{
     width: 169px;
